@@ -35,7 +35,7 @@
 |        분류        |        사이트        |        문제 링크         |         난이도          |        풀이 코드         |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | PriorityQueue | 프로그래머스 | [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) | 3️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/210106_210112(1%EC%A3%BC%EC%B0%A8)/PRG_LV3_%EC%9D%B4%EC%A4%91%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%ED%81%90) |
-| LinkedList | 프로그래머스 | [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | 3️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/210106_210112(1%EC%A3%BC%EC%B0%A8)/PRG_LV2_%EC%BA%90%EC%8B%9C) |
+| LinkedList | 프로그래머스 | [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | 2️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/210106_210112(1%EC%A3%BC%EC%B0%A8)/PRG_LV2_%EC%BA%90%EC%8B%9C) |
 
 
 #### ✅문자열
