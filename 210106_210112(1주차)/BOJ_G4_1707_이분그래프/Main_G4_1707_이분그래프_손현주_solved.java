@@ -22,15 +22,17 @@ public class Main {
 				adj[from].add(to);
 				adj[to].add(from);
 			}
+
 			// 이분 그래프인지 검사
 			int[] isVisited = new int[V];
 			Queue<Integer> bfsQ = new LinkedList<>();
 			boolean isPossible = true;
+			
 			root: for (int i = 0; i < V; ++i) {
 				if (isVisited[i] == 0) { // 아직 방문 전이라면
 					bfsQ.offer(i); // 큐에 추가해주고
 					isVisited[i] = 1; // 1번으로 마킹해준다.
-				}
+				}				
 				while (!bfsQ.isEmpty()) {
 					int current = bfsQ.poll();
 					int edgeLength = adj[current].size();
