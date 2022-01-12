@@ -27,7 +27,7 @@
 
 |        사이트        |        문제 링크         |         난이도          |        풀이 코드         |
 | :-----: | :-----: | :-----: | :-----: |
-
+| 백준 | [내려가기](https://www.acmicpc.net/problem/2096) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/210106_210112(1%EC%A3%BC%EC%B0%A8)/BOJ_G4_2096_%EB%82%B4%EB%A0%A4%EA%B0%80%EA%B8%B0) |
 
 
 #### ✅자료구조
