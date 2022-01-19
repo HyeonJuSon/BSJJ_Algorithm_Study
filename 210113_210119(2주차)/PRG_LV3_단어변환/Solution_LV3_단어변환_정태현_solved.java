@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class Solution_LV3_단어변환_정태현_solved {
-	static int answer = 0;
+	static int answer = 51;
     static int len = 0;
     public static int solution(String begin, String target, String[] words) {
     	//단어 길이는 다 똑같다
@@ -15,13 +15,14 @@ public class Solution_LV3_단어변환_정태현_solved {
         //맨 앞 인자에 단어 거쳐온 개수 출력
         dfs(0, visited, words, begin, target);
         
+        if(answer==51) answer = 0;
         return answer;
     }
     
     public static void dfs(int cnt, boolean[] visited, String[] words, String str, String target) {
         //target 단어와 일치하면
     	if(str.equals(target)) {
-            answer = cnt;
+            answer = Math.min(answer, min);
             return;
         }
         
