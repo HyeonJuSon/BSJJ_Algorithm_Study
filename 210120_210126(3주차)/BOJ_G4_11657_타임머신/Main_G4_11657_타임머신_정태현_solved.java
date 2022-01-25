@@ -59,6 +59,8 @@ public class Main_G4_11657_타임머신_정태현_solved {
 		boolean flag = false;
 		for (int n = 0; n < N-1; n++) {
 			flag = false;
+			//----------------------------------------------------
+			//Edge Relaxation 1번 과정
 			for (int i = 0; i < N; i++) {
 				for (int j = 0; j < N; j++) {
 					//시작점을 포함하지 않은 음수 사이클은 해당 문제에서 음수사이클이 아님
@@ -73,12 +75,15 @@ public class Main_G4_11657_타임머신_정태현_solved {
                     }
 				}
 			}
+			//----------------------------------------------------
 			
+			//E.R이 더이상 이루어지지 않음
 			if(!flag) break;
 		}
 		
 		
 		//한번 더 수행 (음수사이클 체크)
+		//worst case 라서 E.R을 N-1번 꽉꽉 채워 수행
 		if(flag) {
 			for (int i = 0; i < N; i++) {
 				for (int j = 0; j < N; j++) {
