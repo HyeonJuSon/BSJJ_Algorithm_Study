@@ -63,6 +63,9 @@ public class Main_G4_11657_타임머신_정태현_solved {
 				for (int j = 0; j < N; j++) {
 					//시작점을 포함하지 않은 음수 사이클은 해당 문제에서 음수사이클이 아님
 					//따라서 값을 변경하지 않게 break한다
+					//3 2
+					//2 3 -2
+					//3 2 -2
 					if (dist[i] == INF) break;
 					if (dist[i] + adj[i][j] < dist[j]) {
                         dist[j] = dist[i] + adj[i][j];
