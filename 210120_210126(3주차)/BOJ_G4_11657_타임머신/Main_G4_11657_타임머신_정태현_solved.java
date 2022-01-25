@@ -1,3 +1,4 @@
+package algorithm.boj;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -11,10 +12,10 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Main_G4_11657_타임머신_정태현_solved {
-	static final int INF = 2500 * 10001;
+	static final int INF = 500 * 10000;
 	static int N, M;
 	static int[][] adj;
-	static int[] dist;
+	static long[] dist;
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = null;
@@ -28,7 +29,7 @@ public class Main_G4_11657_타임머신_정태현_solved {
 		for (int i = 0; i < N; i++) {
 			Arrays.fill(adj[i], INF);
 		}
-		dist = new int[N];
+		dist = new long[N];
 		Arrays.fill(dist, INF);
 		dist[0] = 0;
 		
@@ -48,6 +49,7 @@ public class Main_G4_11657_타임머신_정태현_solved {
 		} else {
 			System.out.println(-1);
 		}
+		
 	}
 	
 	public static boolean BF() {
@@ -59,6 +61,9 @@ public class Main_G4_11657_타임머신_정태현_solved {
 			flag = false;
 			for (int i = 0; i < N; i++) {
 				for (int j = 0; j < N; j++) {
+					//시작점을 포함하지 않은 음수 사이클은 해당 문제에서 음수사이클이 아님
+					//따라서 값을 변경하지 않게 break한다
+					if (dist[i] == INF) break;
 					if (dist[i] + adj[i][j] < dist[j]) {
                         dist[j] = dist[i] + adj[i][j];
                         flag = true;
@@ -74,6 +79,8 @@ public class Main_G4_11657_타임머신_정태현_solved {
 		if(flag) {
 			for (int i = 0; i < N; i++) {
 				for (int j = 0; j < N; j++) {
+					//시작점을 포함하지 않은 음수 사이클
+					if (dist[i] == INF) break;
 					if (dist[i] + adj[i][j] < dist[j]) return false;
 				}
 			}
