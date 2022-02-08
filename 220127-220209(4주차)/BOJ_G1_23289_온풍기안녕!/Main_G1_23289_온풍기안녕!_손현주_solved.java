@@ -6,7 +6,7 @@ public class Main {
 	static int R, C, K, wallCnt;
 	static int[][] map;
 	static boolean[][][] wallMap;
-
+	// 온풍기 위치를 담기위한 클래스
 	static class Hit {
 		int x, y, dir;
 
@@ -16,7 +16,7 @@ public class Main {
 			this.dir = dir;
 		}
 	}
-
+	// 바람의 이동을 위해 사용되는 클래스
 	static class Wind {
 		int x, y, dir, degree;
 
