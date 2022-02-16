@@ -1,5 +1,5 @@
-package gold;
-
+// 풀이봤슴다...
+// 풀이를 봐도 모르겠슴다.... 다시 공부해올게요...
 import java.io.*;
 import java.util.*;
 
