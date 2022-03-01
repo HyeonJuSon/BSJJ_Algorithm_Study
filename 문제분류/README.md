@@ -26,7 +26,8 @@
 | 백준 | [이분그래프](https://www.acmicpc.net/problem/1707) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220106_220112(1%EC%A3%BC%EC%B0%A8)/BOJ_G4_1707_%EC%9D%B4%EB%B6%84%EA%B7%B8%EB%9E%98%ED%94%84) |
 | 프로그래머스 | [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) | 3️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220113_220119(2%EC%A3%BC%EC%B0%A8)/PRG_LV3_%EB%8B%A8%EC%96%B4%EB%B3%80%ED%99%98) |
 | 백준 | [주사위 굴리기2](https://www.acmicpc.net/problem/23288) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220120_220126(3%EC%A3%BC%EC%B0%A8)/BOJ_G3_23288_%EC%A3%BC%EC%82%AC%EC%9C%84%EA%B5%B4%EB%A6%AC%EA%B8%B02) |
-
+| 백준 | [트리의 지름](https://www.acmicpc.net/problem/1967) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220210-220216(5%EC%A3%BC%EC%B0%A8)/BOJ_G4_1967_%ED%8A%B8%EB%A6%AC%EC%9D%98%EC%A7%80%EB%A6%84) |
+| 백준 | [다리 만들기](https://www.acmicpc.net/problem/2146) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220210-220216(5%EC%A3%BC%EC%B0%A8)/BOJ_G3_2146_%EB%8B%A4%EB%A6%AC%EB%A7%8C%EB%93%A4%EA%B8%B0) |
 
 #### ✅DP
 
@@ -63,7 +64,7 @@
 | 백준 | [온풍기 안녕!](https://www.acmicpc.net/problem/23289) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220127-220209(4%EC%A3%BC%EC%B0%A8)/BOJ_G1_23289_%EC%98%A8%ED%92%8D%EA%B8%B0%EC%95%88%EB%85%95!) |
 | 백준 | [게리맨더링 2](https://www.acmicpc.net/problem/17779) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220127-220209(4%EC%A3%BC%EC%B0%A8)/BOJ_G4_17779_%EA%B2%8C%EB%A6%AC%EB%A7%A8%EB%8D%94%EB%A7%81%202) |
 | 프로그래머스 | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | 2️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220127-220209(4%EC%A3%BC%EC%B0%A8)/PRG_LV2_%ED%94%84%EB%A0%8C%EC%A6%884%EB%B8%94%EB%A1%9D) |
-
+| 백준 | [마법사 상어와 복제](https://www.acmicpc.net/problem/23290) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220210-220216(5%EC%A3%BC%EC%B0%A8)/BOJ_G1_23290_%EB%A7%88%EB%B2%95%EC%82%AC%EC%83%81%EC%96%B4%EC%99%80%EB%B3%B5%EC%A0%9C) |
 
 #### ✅그래프
 
@@ -72,7 +73,7 @@
 | 벨만-포드 | 백준 | [웜홀](https://www.acmicpc.net/problem/1865) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220113_220119(2%EC%A3%BC%EC%B0%A8)/BOJ_G3_1865_%EC%9B%9C%ED%99%80) |
 | 벨만-포드 | 백준 | [타임머신](https://www.acmicpc.net/problem/11657) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220120_220126(3%EC%A3%BC%EC%B0%A8)/BOJ_G4_11657_%ED%83%80%EC%9E%84%EB%A8%B8%EC%8B%A0) |
 | 크루스칼 | 백준 | [최소 스패닝 트리](https://www.acmicpc.net/problem/1197) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220127-220209(4%EC%A3%BC%EC%B0%A8)/BOJ_G4_1197_%EC%B5%9C%EC%86%8C%EC%8A%A4%ED%8C%A8%EB%8B%9D%ED%8A%B8%EB%A6%AC) |
-
+| 다익스트라 | 백준 | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220210-220216(5%EC%A3%BC%EC%B0%A8)/BOJ_G5_1916_%EC%B5%9C%EC%86%8C%EB%B9%84%EC%9A%A9%EA%B5%AC%ED%95%98%EA%B8%B0) |
 
 #### ✅백트래킹
 
