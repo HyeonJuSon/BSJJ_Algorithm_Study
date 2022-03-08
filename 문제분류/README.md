@@ -17,6 +17,7 @@
  6. [그래프(최단거리)](#그래프)
  7. [백트래킹](#백트래킹)
  8. [정렬](#정렬)
+ 9. [그리디](#그리디)
 
  
 #### ✅DFS BFS
@@ -28,12 +29,14 @@
 | 백준 | [주사위 굴리기2](https://www.acmicpc.net/problem/23288) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220120_220126(3%EC%A3%BC%EC%B0%A8)/BOJ_G3_23288_%EC%A3%BC%EC%82%AC%EC%9C%84%EA%B5%B4%EB%A6%AC%EA%B8%B02) |
 | 백준 | [트리의 지름](https://www.acmicpc.net/problem/1967) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220210-220216(5%EC%A3%BC%EC%B0%A8)/BOJ_G4_1967_%ED%8A%B8%EB%A6%AC%EC%9D%98%EC%A7%80%EB%A6%84) |
 | 백준 | [다리 만들기](https://www.acmicpc.net/problem/2146) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220210-220216(5%EC%A3%BC%EC%B0%A8)/BOJ_G3_2146_%EB%8B%A4%EB%A6%AC%EB%A7%8C%EB%93%A4%EA%B8%B0) |
+| 백준 | [트리의 지름_2](https://www.acmicpc.net/problem/1167) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220224-220302(6%EC%A3%BC%EC%B0%A8)/BOJ_G3_1167_%ED%8A%B8%EB%A6%AC%EC%9D%98%EC%A7%80%EB%A6%84) |
 
 #### ✅DP
 
 |        사이트        |        문제 링크         |         난이도          |        풀이 코드         |
 | :-----: | :-----: | :-----: | :-----: |
 | 백준 | [내려가기](https://www.acmicpc.net/problem/2096) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220106_220112(1%EC%A3%BC%EC%B0%A8)/BOJ_G4_2096_%EB%82%B4%EB%A0%A4%EA%B0%80%EA%B8%B0) |
+| 백준 | [ACM Craft](https://www.acmicpc.net/problem/1005) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220224-220302(6%EC%A3%BC%EC%B0%A8)/BOJ_G3_1005_ACM%20Craft) |
 
 
 #### ✅자료구조
@@ -80,6 +83,7 @@
 |        사이트        |        문제 링크         |         난이도          |        풀이 코드         |
 | :-----: | :-----: | :-----: | :-----: |
 | 백준 | [주사위 윷놀이](https://www.acmicpc.net/problem/17825) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220120_220126(3%EC%A3%BC%EC%B0%A8)/BOJ_G2_17825_%EC%A3%BC%EC%82%AC%EC%9C%84%EC%9C%B7%EB%86%80%EC%9D%B4) |
+| 백준 | [N-Queen](https://www.acmicpc.net/problem/9663) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220224-220302(6%EC%A3%BC%EC%B0%A8)/BOJ_G5_9663_N-Queen) |
 
 
 #### ✅정렬
@@ -87,3 +91,10 @@
 |        사이트        |        문제 링크         |         난이도          |        풀이 코드         |
 | :-----: | :-----: | :-----: | :-----: |
 | 프로그래머스 | [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | 2️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220120_220126(3%EC%A3%BC%EC%B0%A8)/PRG_LV2_%EC%B5%9C%EB%8C%93%EA%B0%92%EA%B3%BC%EC%B5%9C%EC%86%9F%EA%B0%92) |
+
+
+#### ✅그리디
+
+|        사이트        |        문제 링크         |         난이도          |        풀이 코드         |
+| :-----: | :-----: | :-----: | :-----: |
+| 백준 | [단어 수학](https://www.acmicpc.net/problem/1339) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220224-220302(6%EC%A3%BC%EC%B0%A8)/BOJ_G4_1339_%EB%8B%A8%EC%96%B4%EC%88%98%ED%95%99) |
