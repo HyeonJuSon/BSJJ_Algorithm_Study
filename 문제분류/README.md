@@ -30,6 +30,7 @@
 | 백준 | [트리의 지름](https://www.acmicpc.net/problem/1967) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220210-220216(5%EC%A3%BC%EC%B0%A8)/BOJ_G4_1967_%ED%8A%B8%EB%A6%AC%EC%9D%98%EC%A7%80%EB%A6%84) |
 | 백준 | [다리 만들기](https://www.acmicpc.net/problem/2146) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220210-220216(5%EC%A3%BC%EC%B0%A8)/BOJ_G3_2146_%EB%8B%A4%EB%A6%AC%EB%A7%8C%EB%93%A4%EA%B8%B0) |
 | 백준 | [트리의 지름_2](https://www.acmicpc.net/problem/1167) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220224-220302(6%EC%A3%BC%EC%B0%A8)/BOJ_G3_1167_%ED%8A%B8%EB%A6%AC%EC%9D%98%EC%A7%80%EB%A6%84) |
+| 백준 | [치즈](https://www.acmicpc.net/problem/2638) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220303-220309(7%EC%A3%BC%EC%B0%A8)/BOJ_G4_2638_%EC%B9%98%EC%A6%88) |
 
 #### ✅DP
 
@@ -68,6 +69,8 @@
 | 백준 | [게리맨더링 2](https://www.acmicpc.net/problem/17779) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220127-220209(4%EC%A3%BC%EC%B0%A8)/BOJ_G4_17779_%EA%B2%8C%EB%A6%AC%EB%A7%A8%EB%8D%94%EB%A7%81%202) |
 | 프로그래머스 | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | 2️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220127-220209(4%EC%A3%BC%EC%B0%A8)/PRG_LV2_%ED%94%84%EB%A0%8C%EC%A6%884%EB%B8%94%EB%A1%9D) |
 | 백준 | [마법사 상어와 복제](https://www.acmicpc.net/problem/23290) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220210-220216(5%EC%A3%BC%EC%B0%A8)/BOJ_G1_23290_%EB%A7%88%EB%B2%95%EC%82%AC%EC%83%81%EC%96%B4%EC%99%80%EB%B3%B5%EC%A0%9C) |
+| 백준 | [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220303-220309(7%EC%A3%BC%EC%B0%A8)/BOJ_G5_21610_%EB%A7%88%EB%B2%95%EC%82%AC%EC%83%81%EC%96%B4%EC%99%80%EB%B9%84%EB%B0%94%EB%9D%BC%EA%B8%B0) |
+| 백준 | [배열돌리기 4](https://www.acmicpc.net/problem/17406) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220303-220309(7%EC%A3%BC%EC%B0%A8)/BOJ_G4_17406_%EB%B0%B0%EC%97%B4%EB%8F%8C%EB%A6%AC%EA%B8%B0) |
 
 #### ✅그래프
 
@@ -77,6 +80,7 @@
 | 벨만-포드 | 백준 | [타임머신](https://www.acmicpc.net/problem/11657) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220120_220126(3%EC%A3%BC%EC%B0%A8)/BOJ_G4_11657_%ED%83%80%EC%9E%84%EB%A8%B8%EC%8B%A0) |
 | 크루스칼 | 백준 | [최소 스패닝 트리](https://www.acmicpc.net/problem/1197) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220127-220209(4%EC%A3%BC%EC%B0%A8)/BOJ_G4_1197_%EC%B5%9C%EC%86%8C%EC%8A%A4%ED%8C%A8%EB%8B%9D%ED%8A%B8%EB%A6%AC) |
 | 다익스트라 | 백준 | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220210-220216(5%EC%A3%BC%EC%B0%A8)/BOJ_G5_1916_%EC%B5%9C%EC%86%8C%EB%B9%84%EC%9A%A9%EA%B5%AC%ED%95%98%EA%B8%B0) |
+| 다익스트라 | 백준 | [서강그라운드](https://www.acmicpc.net/problem/14938) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220303-220309(7%EC%A3%BC%EC%B0%A8)/BOJ_G4_14938_%EC%84%9C%EA%B0%95%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C) |
 
 #### ✅백트래킹
 
