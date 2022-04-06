@@ -45,10 +45,18 @@ public class Main {
 			//temp배열을 arr에 복사
 			copy();
 			
-			for(int i=0; i<cleaner.length; i++) {
-				clean(i);				
-			}
+			clean();
 		}
+
+        int sum = 0;
+        for(int i=0; i<R; i++) {
+            for(int j=0; j<C; j++) {
+                if(arr[i][j]==-1) continue;
+                sum+=arr[i][j];
+            }
+        }
+
+        System.out.println(sum);
 	}
 	
 	public static void spread(int r, int c) {
@@ -83,43 +91,40 @@ public class Main {
 		}
 	}
 	
-	public static void clean(int idx) {
+	public static void clean() {
 		int first = cleaner[0];
 		int sec = cleaner[1];
-		//청소기칸 제외 idx-1
-		for(int i=0; i<first-1; i++) {
-			arr[i+1][0] = arr[i][0];
-		}
-		
-		for(int i=1; i<C; i++) {
-			arr[0][i-1] = arr[0][i];
-		}
-		
-		for(int i=1; i<=first; i++) {
-			arr[i-1][R-1] = arr[i][R-1];
-		}
-		
-		for(int i=1; i<C-1; i++) {
-			arr[i+1][first] = arr[i][R-1];
-		}
-		//청소기옆칸
-		arr[first][1] = 0;
-		
-		for(int i=sec+1; i<R-1; i++) {
-			arr[i][0] = arr[i+1][0];
-		}
-		//-------------------------------------------------------
-		for(int i=1; i<C; i++) {
-			arr[0][i-1] = arr[0][i];
-		}
-		
-		for(int i=1; i<=first; i++) {
-			arr[i-1][R-1] = arr[i][R-1];
-		}
-		
-		for(int i=1; i<C-1; i++) {
-			arr[i+1][first] = arr[i][R-1];
-		}
+        // 위쪽 공기청정기의 바람은 반시계방향 순환,
+        // 아래로 당기기
+        for (int i = first - 1; i > 0; i--) 
+            arr[i][0] = arr[i-1][0];
+        // 왼쪽으로 당기기
+        for (int i = 0; i < C - 1; i++) 
+            arr[0][i] = arr[0][i+1];
+        // 위로 당기기
+        for (int i = 0; i < first; i++) 
+            arr[i][C - 1] = arr[i + 1][C - 1];
+        // 오른쪽으로 당기기
+        for (int i = C - 1; i > 1; i--) 
+            arr[first][i] = arr[first][i-1];
+        // 공기청정기에서 부는 바람은 미세먼지가 없는 바람
+        arr[first][1] = 0;
+        
+        // 아래쪽 공기청정기의 바람은 시계방향으로 순환
+        // 위로 당기기
+        for (int i = sec + 1; i < R - 1; i++) 
+            arr[i][0] = arr[i + 1][0];
+        // 왼쪽으로 당기기
+        for (int i = 0; i < C - 1; i++) 
+            arr[R - 1][i] = arr[R - 1][i + 1]; 
+        // 아래로 당기기
+        for (int i = R - 1; i > sec; i--) 
+            arr[i][C - 1] = arr[i - 1][C - 1];
+        // 오른쪽으로 당기기
+        for (int i = C - 1; i > 1; i--) 
+            arr[sec][i] = arr[sec][i - 1];
+        // 공기청정기에서 부는 바람은 미세먼지가 없는 바람
+        arr[sec][1] = 0;
 	}
 	
 	public static class Pos {
