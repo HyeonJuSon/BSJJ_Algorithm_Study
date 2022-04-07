@@ -36,15 +36,15 @@ public class bj_21609_G2 {
 
 	static int N, M, map[][], score;
 	static final int black = -1, rainbow = 0, empty = -2;
-	static Group bigGroupBase;
-	
-	static Queue<Block> bigGroup = new LinkedList<>();
+	static int[][] dir = { { -1, 0, 0, 1 }, { 0, -1, 1, 0 } };
+	static Group bigGroupBase; // ê°€ì¥ í° ë¸”ë¡ ê·¸ë£¹ì˜ ê¸°ì¤€ ë¸”ë¡ 
+	static Queue<Block> bigGroup = new LinkedList<>();// ê°€ì¥ í° ë¸”ë¡ ê·¸ë£¹
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		N = Integer.parseInt(st.nextToken()); // °İÀÚ ÇÑ º¯ÀÇ Å©±â
-		M = Integer.parseInt(st.nextToken()); // ÀÏ¹İ ºí·Ï »ö±ò ¼ö
+		N = Integer.parseInt(st.nextToken()); // ê²©ì í•œ ë³€ì˜ í¬ê¸°
+		M = Integer.parseInt(st.nextToken()); // ì¼ë°˜ ë¸”ë¡ ìƒ‰ê¹” ìˆ˜
 		score = 0;
 		map = new int[N][N];
 		for (int i = 0; i < N; ++i) {
@@ -55,45 +55,44 @@ public class bj_21609_G2 {
 		}
 
 		while (true) {
-			if (!findBlock()) break;
+			if (!findBlock())
+				break;
 			eraseBlock();
 			gravity();
 			rotate();
 			gravity();
-			print("Áß·Â");
 		}
 
 		System.out.println(score);
 	}
 
-
-	// °¡Àå Å« ºí·ÏÀ» Ã£´Â´Ù.
+	// ê°€ì¥ í° ë¸”ë¡ì„ ì°¾ëŠ”ë‹¤.
 	static boolean findBlock() {
-		bigGroup = new LinkedList<>(); // °¡Àå Å« ºí·Ï ±×·ìÀ» ´ã´Â´Ù.
-		bigGroupBase = new Group(); // °¡Àå Å« ±×·ìÀÇ ±âÁØ ºí·ÏÀ» ÀúÀåÇÑ´Ù.
+		bigGroup = new LinkedList<>(); // ê°€ì¥ í° ë¸”ë¡ ê·¸ë£¹ì„ ë‹´ëŠ”ë‹¤.
+		bigGroupBase = new Group(); // ê°€ì¥ í° ê·¸ë£¹ì˜ ê¸°ì¤€ ë¸”ë¡ì„ ì €ì¥í•œë‹¤.
 		boolean[][] isVisited = new boolean[N][N];
 		for (int i = 0; i < N; ++i) {
 			for (int j = 0; j < N; ++j) {
-				if (M>=map[i][j]&&map[i][j] > rainbow && !isVisited[i][j]) {
+				if (M >= map[i][j] && map[i][j] > rainbow && !isVisited[i][j]) {
 					bfs(i, j, map[i][j], isVisited);
 				}
 			}
 		}
-		return bigGroup.size() > 1; // ±×·ì¿¡ ¼ÓÇÑ ºí·ÏÀÇ °³¼ö´Â 2°³ ÀÌ»óÀÌ¾î¾ßÇÔ. ±×¸®°í ÃÖ¼Ò ÇÑ°³ ÀÌ»ó ÀÏ¹İ ºí·ÏÀÌ¾î¾ßÇÔ.
+		return bigGroup.size() > 1; // ê·¸ë£¹ì— ì†í•œ ë¸”ë¡ì˜ ê°œìˆ˜ëŠ” 2ê°œ ì´ìƒì´ì–´ì•¼í•¨. ê·¸ë¦¬ê³  ìµœì†Œ í•œê°œ ì´ìƒ ì¼ë°˜ ë¸”ë¡ì´ì–´ì•¼í•¨.
 	}
-
-	static int[][] dir = { { -1, 0, 0, 1 }, { 0, -1, 1, 0 } };
 
 	static void bfs(int x, int y, int color, boolean[][] isVisited) {
 		Queue<Block> q = new LinkedList<>();
-		Queue<Block> tmp = new LinkedList<>(); // ÇöÀç ºí·ÏÀÇ °³¼ö°¡ ¸î°³ÀÎÁö ºñ±³ÇÏ±â À§ÇÔ.
+		Queue<Block> tmp = new LinkedList<>(); // í˜„ì¬ ë¸”ë¡ì˜ ê°œìˆ˜ê°€ ëª‡ê°œì¸ì§€ ë¹„êµí•˜ê¸° ìœ„í•¨.
 		q.add(new Block(x, y, color));
 		tmp.add(new Block(x, y, color));
 		isVisited[x][y] = true;
-		Group tmpBase = new Group(); // ÀÓ½Ã ±âÁØ ºí·ÏÀ» ´ãÀ» °´Ã¼
+		// ê¸°ì¤€ ë¸”ë¡ì„ ë‹´ëŠ”ë‹¤.
+		Group tmpBase = new Group();
 		tmpBase.base.x = x;
 		tmpBase.base.y = y;
 		tmpBase.blockCnt++;
+		// íƒìƒ‰ ì‹œì‘
 		while (!q.isEmpty()) {
 			Block now = q.poll();
 			for (int d = 0; d < 4; ++d) {
@@ -103,59 +102,51 @@ public class bj_21609_G2 {
 					isVisited[nx][ny] = true;
 					q.add(new Block(nx, ny, map[nx][ny]));
 					tmp.add(new Block(nx, ny, map[nx][ny]));
-					// ±âÁØ ºí·Ï °»½Å
-					if (map[nx][ny] != rainbow) { // ¹«Áö°³»öÀº ±âÁØÀÌ µÉ ¼ö ¾øÀ½
-						// ÇàÀÌ ´õ Å©°Å³ª // ÇàÀº °°Àºµ¥ ¿­ÀÌ ´õÅ©°Å³ª
-						if (tmpBase.base.x > nx || (tmpBase.base.x == nx && tmpBase.base.y > ny)) {
-							tmpBase.base.x = nx;
-							tmpBase.base.y = ny;
-						}
-						tmpBase.blockCnt++;
-					} else {
-						// ¹«Áö°³ ºí·Ï ¼ö Ä«¿îÆ®
-						tmpBase.rainbowCnt++;
-					}
+					if (map[nx][ny] != rainbow)
+						tmpBase.blockCnt++; // ê¸°ì¤€ ë¸”ë¡ ì¹´ìš´íŠ¸
+					else
+						tmpBase.rainbowCnt++; // ë¬´ì§€ê°œ ë¸”ë¡ ì¹´ìš´íŠ¸
 				}
 			}
 		}
 		boolean isChange = false;
-		if (tmp.size() > 1 && tmpBase.blockCnt >=1) { // ±×·ì¿¡´Â ÃÖ¼Ò 1°³ÀÌ»óÀÇ ÀÏ¹İ ºí·ÏÀÌ ÀÖ¾î¾ßÇÑ´Ù.
-			// ±×·ìÀÌ ´õ Å©¸é
+		if (tmp.size() > 1 && tmpBase.blockCnt >= 1) { // ê·¸ë£¹ì—ëŠ” ìµœì†Œ 1ê°œì´ìƒì˜ ì¼ë°˜ ë¸”ë¡ì´ ìˆì–´ì•¼í•œë‹¤.
+			// ê·¸ë£¹ì´ ë” í¬ë©´
 			if (bigGroup.size() < tmp.size()) {
 				isChange = true;
 			} else if (bigGroup.size() == tmp.size()) {
-				// ±×·ì °³¼ö°¡ °¡ºv¸é
-				// ¹«Áö°³ ºí·Ï ¼ö°¡ Å« ÂÊ
-				if(bigGroupBase.rainbowCnt < tmpBase.rainbowCnt) {
+				// ê·¸ë£¹ ê°œìˆ˜ê°€ ê°€í‹ë©´
+				// ë¬´ì§€ê°œ ë¸”ë¡ ìˆ˜ê°€ í° ìª½
+				if (bigGroupBase.rainbowCnt < tmpBase.rainbowCnt) {
 					isChange = true;
-				}else if(bigGroupBase.rainbowCnt == tmpBase.rainbowCnt) {
-					if(bigGroupBase.base.x < tmpBase.base.x) {
+				} else if (bigGroupBase.rainbowCnt == tmpBase.rainbowCnt) {
+					if (bigGroupBase.base.x < tmpBase.base.x) {
 						isChange = true;
-					}else if(bigGroupBase.base.x == tmpBase.base.x && bigGroupBase.base.y < tmpBase.base.y) {
+					} else if (bigGroupBase.base.x == tmpBase.base.x && bigGroupBase.base.y < tmpBase.base.y) {
 						isChange = true;
 					}
 				}
 			}
 		}
-		
-		if(isChange) {
+
+		if (isChange) {
 			bigGroup.clear();
-			while(!tmp.isEmpty()) {
+			while (!tmp.isEmpty()) {
 				Block now = tmp.poll();
-				if(now.color==rainbow) {
-					isVisited[now.pos.x][now.pos.y]=false;
+				if (now.color == rainbow) {
+					isVisited[now.pos.x][now.pos.y] = false;
 				}
 				bigGroup.add(now);
 			}
 			bigGroupBase.base.x = tmpBase.base.x;
 			bigGroupBase.base.y = tmpBase.base.y;
 			bigGroupBase.blockCnt = tmpBase.blockCnt;
-			bigGroupBase.rainbowCnt =  tmpBase.rainbowCnt;
-		}else {
-			while(!tmp.isEmpty()) {
+			bigGroupBase.rainbowCnt = tmpBase.rainbowCnt;
+		} else {
+			while (!tmp.isEmpty()) {
 				Block now = tmp.poll();
-				if(now.color==rainbow) {
-					isVisited[now.pos.x][now.pos.y]=false;
+				if (now.color == rainbow) {
+					isVisited[now.pos.x][now.pos.y] = false;
 				}
 			}
 		}
@@ -166,14 +157,14 @@ public class bj_21609_G2 {
 	}
 
 	static void eraseBlock() {
-		score += bigGroup.size() * bigGroup.size();
-		while(!bigGroup.isEmpty()) {
+		score += bigGroup.size() * bigGroup.size(); // ì ìˆ˜ ê³„ì‚° 
+		while (!bigGroup.isEmpty()) {
 			Block now = bigGroup.poll();
 			map[now.pos.x][now.pos.y] = empty;
 		}
 	}
 
-	// Áß·Â
+	// ì¤‘ë ¥
 	static void gravity() {
 		for (int j = 0; j < N; ++j) {
 			int cnt = 0;
@@ -186,8 +177,7 @@ public class bj_21609_G2 {
 						map[i][j] = empty;
 						i = i + cnt;
 						cnt = 0;
-					}else { // °ËÁ¤»öÀÎ °æ¿ì
-						
+					} else { // ê²€ì •ìƒ‰ì¸ ê²½ìš°
 						cnt = 0;
 					}
 				}
@@ -195,7 +185,7 @@ public class bj_21609_G2 {
 		}
 	}
 
-	// 90µµ ¹İ½Ã°è ¹æÇâ
+	// 90ë„ ë°˜ì‹œê³„ ë°©í–¥
 	static void rotate() {
 		int[][] tmp = new int[N][N];
 		for (int i = 0; i < N; ++i) {
@@ -207,15 +197,4 @@ public class bj_21609_G2 {
 		map = tmp;
 	}
 
-	// print
-	static void print(String header) {
-		System.out.println(header);
-		for (int i = 0; i < N; ++i) {
-			for (int j = 0; j < N; ++j) {
-				if(map[i][j]==-2) System.out.print("  ¡á");
-				else System.out.printf("%3d ", map[i][j]);
-			}
-			System.out.println();
-		}
-	}
 }
