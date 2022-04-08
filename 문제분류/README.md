@@ -22,90 +22,90 @@
  
 #### ✅DFS BFS
 
-|        사이트        |        문제 링크         |         난이도          |        풀이 코드         |
+|        사이트        |        문제 링크         |         난이도          |        풀이 주차         |
 | :-----: | :-----: | :-----: | :-----: |
-| 백준 | [이분그래프](https://www.acmicpc.net/problem/1707) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220106_220112(1%EC%A3%BC%EC%B0%A8)/BOJ_G4_1707_%EC%9D%B4%EB%B6%84%EA%B7%B8%EB%9E%98%ED%94%84) |
-| 프로그래머스 | [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) | 3️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220113_220119(2%EC%A3%BC%EC%B0%A8)/PRG_LV3_%EB%8B%A8%EC%96%B4%EB%B3%80%ED%99%98) |
-| 백준 | [주사위 굴리기2](https://www.acmicpc.net/problem/23288) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220120_220126(3%EC%A3%BC%EC%B0%A8)/BOJ_G3_23288_%EC%A3%BC%EC%82%AC%EC%9C%84%EA%B5%B4%EB%A6%AC%EA%B8%B02) |
-| 백준 | [트리의 지름](https://www.acmicpc.net/problem/1967) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220210-220216(5%EC%A3%BC%EC%B0%A8)/BOJ_G4_1967_%ED%8A%B8%EB%A6%AC%EC%9D%98%EC%A7%80%EB%A6%84) |
-| 백준 | [다리 만들기](https://www.acmicpc.net/problem/2146) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220210-220216(5%EC%A3%BC%EC%B0%A8)/BOJ_G3_2146_%EB%8B%A4%EB%A6%AC%EB%A7%8C%EB%93%A4%EA%B8%B0) |
-| 백준 | [트리의 지름_2](https://www.acmicpc.net/problem/1167) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220224-220302(6%EC%A3%BC%EC%B0%A8)/BOJ_G3_1167_%ED%8A%B8%EB%A6%AC%EC%9D%98%EC%A7%80%EB%A6%84) |
-| 백준 | [치즈](https://www.acmicpc.net/problem/2638) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220303-220309(7%EC%A3%BC%EC%B0%A8)/BOJ_G4_2638_%EC%B9%98%EC%A6%88) |
-| 백준 | [Puyo Puyo](https://www.acmicpc.net/problem/11559) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220310-220316(8%EC%A3%BC%EC%B0%A8)/BOJ_G4_11559_Puyo%20Puyo) |
+| 백준 | [이분그래프](https://www.acmicpc.net/problem/1707) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 1주차 |
+| 프로그래머스 | [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) | 3️⃣ | 2주차 |
+| 백준 | [주사위 굴리기2](https://www.acmicpc.net/problem/23288) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 3주차 |
+| 백준 | [트리의 지름](https://www.acmicpc.net/problem/1967) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 5주차 |
+| 백준 | [다리 만들기](https://www.acmicpc.net/problem/2146) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 5주차 |
+| 백준 | [트리의 지름_2](https://www.acmicpc.net/problem/1167) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 6주차 |
+| 백준 | [치즈](https://www.acmicpc.net/problem/2638) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 7주차 |
+| 백준 | [Puyo Puyo](https://www.acmicpc.net/problem/11559) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 8주차 |
 
 
 #### ✅DP
 
-|        사이트        |        문제 링크         |         난이도          |        풀이 코드         |
+|        사이트        |        문제 링크         |         난이도          |        풀이 주차         |
 | :-----: | :-----: | :-----: | :-----: |
-| 백준 | [내려가기](https://www.acmicpc.net/problem/2096) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220106_220112(1%EC%A3%BC%EC%B0%A8)/BOJ_G4_2096_%EB%82%B4%EB%A0%A4%EA%B0%80%EA%B8%B0) |
-| 백준 | [ACM Craft](https://www.acmicpc.net/problem/1005) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220224-220302(6%EC%A3%BC%EC%B0%A8)/BOJ_G3_1005_ACM%20Craft) |
-| 백준 | [성냥개비](https://www.acmicpc.net/problem/3687) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220310-220316(8%EC%A3%BC%EC%B0%A8)/BOJ_G2_3687_%EC%84%B1%EB%83%A5%EA%B0%9C%EB%B9%84) |
+| 백준 | [내려가기](https://www.acmicpc.net/problem/2096) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 1주차 |
+| 백준 | [ACM Craft](https://www.acmicpc.net/problem/1005) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 6주차 |
+| 백준 | [성냥개비](https://www.acmicpc.net/problem/3687) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> | 8주차 |
 
 
 #### ✅자료구조
 
-|        분류        |        사이트        |        문제 링크         |         난이도          |        풀이 코드         |
+|        분류        |        사이트        |        문제 링크         |         난이도          |        풀이 주차         |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
-| PriorityQueue | 프로그래머스 | [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) | 3️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220106_220112(1%EC%A3%BC%EC%B0%A8)/PRG_LV3_%EC%9D%B4%EC%A4%91%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%ED%81%90) |
-| LinkedList | 프로그래머스 | [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | 2️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220106_220112(1%EC%A3%BC%EC%B0%A8)/PRG_LV2_%EC%BA%90%EC%8B%9C) |
-| LinkedList | 백준 | [이분그래프](https://www.acmicpc.net/problem/1707) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220106_220112(1%EC%A3%BC%EC%B0%A8)/BOJ_G4_1707_%EC%9D%B4%EB%B6%84%EA%B7%B8%EB%9E%98%ED%94%84) |
-| 多 | 프로그래머스 | [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065) | 2️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220113_220119(2%EC%A3%BC%EC%B0%A8)/PRG_LV2_%ED%8A%9C%ED%94%8C) |
+| PriorityQueue | 프로그래머스 | [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) | 3️⃣ | 1주차 |
+| LinkedList | 프로그래머스 | [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | 2️⃣ | 1주차 |
+| LinkedList | 백준 | [이분그래프](https://www.acmicpc.net/problem/1707) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 1주차 |
+| 多 | 프로그래머스 | [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065) | 2️⃣ | 2주차 |
 
 
 #### ✅문자열
 
-|        사이트        |        문제 링크         |         난이도          |        풀이 코드         |
+|        사이트        |        문제 링크         |         난이도          |        풀이 주차         |
 | :-----: | :-----: | :-----: | :-----: |
-| 프로그래머스 | [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065) | 2️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/210113_210119(2%EC%A3%BC%EC%B0%A8)/PRG_LV2_%ED%8A%9C%ED%94%8C) |
-| 프로그래머스 | [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | 2️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220120_220126(3%EC%A3%BC%EC%B0%A8)/PRG_LV2_%EC%B5%9C%EB%8C%93%EA%B0%92%EA%B3%BC%EC%B5%9C%EC%86%9F%EA%B0%92) |
-| 프로그래머스 | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | 2️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220310-220316(8%EC%A3%BC%EC%B0%A8)/PRG_LV2_%EB%AC%B8%EC%9E%90%EC%97%B4%EC%95%95%EC%B6%95) |
+| 프로그래머스 | [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065) | 2️⃣ | 2주차 |
+| 프로그래머스 | [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | 2️⃣ | 3주차 |
+| 프로그래머스 | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | 2️⃣ | 8주차 |
 
 
 #### ✅구현
 
-|        사이트        |        문제 링크         |         난이도          |        풀이 코드         |
+|        사이트        |        문제 링크         |         난이도          |        풀이 주차         |
 | :-----: | :-----: | :-----: | :-----: |
-| 백준 | [어항 정리](https://www.acmicpc.net/problem/23291) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220113_220119(2%EC%A3%BC%EC%B0%A8)/BOJ_G1_23291_%EC%96%B4%ED%95%AD%EC%A0%95%EB%A6%AC) |
-| 백준 | [주사위 윷놀이](https://www.acmicpc.net/problem/17825) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220120_220126(3%EC%A3%BC%EC%B0%A8)/BOJ_G2_17825_%EC%A3%BC%EC%82%AC%EC%9C%84%EC%9C%B7%EB%86%80%EC%9D%B4) |
-| 백준 | [주사위 굴리기2](https://www.acmicpc.net/problem/23288) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220120_220126(3%EC%A3%BC%EC%B0%A8)/BOJ_G3_23288_%EC%A3%BC%EC%82%AC%EC%9C%84%EA%B5%B4%EB%A6%AC%EA%B8%B02) |
-| 백준 | [온풍기 안녕!](https://www.acmicpc.net/problem/23289) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220127-220209(4%EC%A3%BC%EC%B0%A8)/BOJ_G1_23289_%EC%98%A8%ED%92%8D%EA%B8%B0%EC%95%88%EB%85%95!) |
-| 백준 | [게리맨더링 2](https://www.acmicpc.net/problem/17779) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220127-220209(4%EC%A3%BC%EC%B0%A8)/BOJ_G4_17779_%EA%B2%8C%EB%A6%AC%EB%A7%A8%EB%8D%94%EB%A7%81%202) |
-| 프로그래머스 | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | 2️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220127-220209(4%EC%A3%BC%EC%B0%A8)/PRG_LV2_%ED%94%84%EB%A0%8C%EC%A6%884%EB%B8%94%EB%A1%9D) |
-| 백준 | [마법사 상어와 복제](https://www.acmicpc.net/problem/23290) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220210-220216(5%EC%A3%BC%EC%B0%A8)/BOJ_G1_23290_%EB%A7%88%EB%B2%95%EC%82%AC%EC%83%81%EC%96%B4%EC%99%80%EB%B3%B5%EC%A0%9C) |
-| 백준 | [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220303-220309(7%EC%A3%BC%EC%B0%A8)/BOJ_G5_21610_%EB%A7%88%EB%B2%95%EC%82%AC%EC%83%81%EC%96%B4%EC%99%80%EB%B9%84%EB%B0%94%EB%9D%BC%EA%B8%B0) |
-| 백준 | [배열돌리기 4](https://www.acmicpc.net/problem/17406) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220303-220309(7%EC%A3%BC%EC%B0%A8)/BOJ_G4_17406_%EB%B0%B0%EC%97%B4%EB%8F%8C%EB%A6%AC%EA%B8%B0) |
-| 프로그래머스 | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | 2️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220310-220316(8%EC%A3%BC%EC%B0%A8)/PRG_LV2_%EB%AC%B8%EC%9E%90%EC%97%B4%EC%95%95%EC%B6%95) |
-| 백준 | [Puyo Puyo](https://www.acmicpc.net/problem/11559) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220310-220316(8%EC%A3%BC%EC%B0%A8)/BOJ_G4_11559_Puyo%20Puyo) |
+| 백준 | [어항 정리](https://www.acmicpc.net/problem/23291) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> | 2주차 |
+| 백준 | [주사위 윷놀이](https://www.acmicpc.net/problem/17825) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> | 3주차 |
+| 백준 | [주사위 굴리기2](https://www.acmicpc.net/problem/23288) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 3주차 |
+| 백준 | [온풍기 안녕!](https://www.acmicpc.net/problem/23289) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> | 4주차 |
+| 백준 | [게리맨더링 2](https://www.acmicpc.net/problem/17779) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 4주차|
+| 프로그래머스 | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | 2️⃣ | 4주차 |
+| 백준 | [마법사 상어와 복제](https://www.acmicpc.net/problem/23290) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> | 5주차 |
+| 백준 | [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | 7주차 |
+| 백준 | [배열돌리기 4](https://www.acmicpc.net/problem/17406) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 7주차 |
+| 프로그래머스 | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | 2️⃣ | 8주차 |
+| 백준 | [Puyo Puyo](https://www.acmicpc.net/problem/11559) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 8주차 |
 
 #### ✅그래프
 
-|        분류        |        사이트        |        문제 링크         |         난이도          |        풀이 코드         |
+|        분류        |        사이트        |        문제 링크         |         난이도          |        풀이 주차         |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
-| 벨만-포드 | 백준 | [웜홀](https://www.acmicpc.net/problem/1865) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220113_220119(2%EC%A3%BC%EC%B0%A8)/BOJ_G3_1865_%EC%9B%9C%ED%99%80) |
-| 벨만-포드 | 백준 | [타임머신](https://www.acmicpc.net/problem/11657) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220120_220126(3%EC%A3%BC%EC%B0%A8)/BOJ_G4_11657_%ED%83%80%EC%9E%84%EB%A8%B8%EC%8B%A0) |
-| 크루스칼 | 백준 | [최소 스패닝 트리](https://www.acmicpc.net/problem/1197) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220127-220209(4%EC%A3%BC%EC%B0%A8)/BOJ_G4_1197_%EC%B5%9C%EC%86%8C%EC%8A%A4%ED%8C%A8%EB%8B%9D%ED%8A%B8%EB%A6%AC) |
-| 다익스트라 | 백준 | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220210-220216(5%EC%A3%BC%EC%B0%A8)/BOJ_G5_1916_%EC%B5%9C%EC%86%8C%EB%B9%84%EC%9A%A9%EA%B5%AC%ED%95%98%EA%B8%B0) |
-| 다익스트라 | 백준 | [서강그라운드](https://www.acmicpc.net/problem/14938) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220303-220309(7%EC%A3%BC%EC%B0%A8)/BOJ_G4_14938_%EC%84%9C%EA%B0%95%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C) |
+| 벨만-포드 | 백준 | [웜홀](https://www.acmicpc.net/problem/1865) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 2주차 |
+| 벨만-포드 | 백준 | [타임머신](https://www.acmicpc.net/problem/11657) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 3주차 |
+| 크루스칼 | 백준 | [최소 스패닝 트리](https://www.acmicpc.net/problem/1197) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 4주차 |
+| 다익스트라 | 백준 | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | 5주차 |
+| 다익스트라 | 백준 | [서강그라운드](https://www.acmicpc.net/problem/14938) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 7주차 |
 
 #### ✅백트래킹
 
-|        사이트        |        문제 링크         |         난이도          |        풀이 코드         |
+|        사이트        |        문제 링크         |         난이도          |        풀이 주차         |
 | :-----: | :-----: | :-----: | :-----: |
-| 백준 | [주사위 윷놀이](https://www.acmicpc.net/problem/17825) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220120_220126(3%EC%A3%BC%EC%B0%A8)/BOJ_G2_17825_%EC%A3%BC%EC%82%AC%EC%9C%84%EC%9C%B7%EB%86%80%EC%9D%B4) |
-| 백준 | [N-Queen](https://www.acmicpc.net/problem/9663) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220224-220302(6%EC%A3%BC%EC%B0%A8)/BOJ_G5_9663_N-Queen) |
+| 백준 | [주사위 윷놀이](https://www.acmicpc.net/problem/17825) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> | 3주차 |
+| 백준 | [N-Queen](https://www.acmicpc.net/problem/9663) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | 6주차 |
 
 
 #### ✅정렬
 
-|        사이트        |        문제 링크         |         난이도          |        풀이 코드         |
+|        사이트        |        문제 링크         |         난이도          |        풀이 주차         |
 | :-----: | :-----: | :-----: | :-----: |
-| 프로그래머스 | [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | 2️⃣ | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220120_220126(3%EC%A3%BC%EC%B0%A8)/PRG_LV2_%EC%B5%9C%EB%8C%93%EA%B0%92%EA%B3%BC%EC%B5%9C%EC%86%9F%EA%B0%92) |
-| 백준 | [세 용액](https://www.acmicpc.net/problem/2473) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220310-220316(8%EC%A3%BC%EC%B0%A8)/BOJ_G4_2473_%EC%84%B8%20%EC%9A%A9%EC%95%A1) |
+| 프로그래머스 | [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | 2️⃣ | 3주차 |
+| 백준 | [세 용액](https://www.acmicpc.net/problem/2473) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 8주차 |
 
 
 #### ✅그리디
 
-|        사이트        |        문제 링크         |         난이도          |        풀이 코드         |
+|        사이트        |        문제 링크         |         난이도          |        풀이          |
 | :-----: | :-----: | :-----: | :-----: |
-| 백준 | [단어 수학](https://www.acmicpc.net/problem/1339) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [코드](https://github.com/HyeonJuSon/BSJJ_Algorithm_Study/tree/main/220224-220302(6%EC%A3%BC%EC%B0%A8)/BOJ_G4_1339_%EB%8B%A8%EC%96%B4%EC%88%98%ED%95%99) |
+| 백준 | [단어 수학](https://www.acmicpc.net/problem/1339) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 6주차 |
