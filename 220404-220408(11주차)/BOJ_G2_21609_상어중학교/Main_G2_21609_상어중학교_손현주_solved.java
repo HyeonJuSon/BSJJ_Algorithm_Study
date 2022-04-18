@@ -78,7 +78,7 @@ public class bj_21609_G2 {
 				}
 			}
 		}
-		return bigGroup.size() > 1; // 그룹에 속한 블록의 개수는 2개 이상이어야함. 그리고 최소 한개 이상 일반 블록이어야함.
+		return bigGroup.size() > 1; // 그룹에 속한 블록의 개수는 2개 이상이어야함.
 	}
 
 	static void bfs(int x, int y, int color, boolean[][] isVisited) {
